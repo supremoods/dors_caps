@@ -16,8 +16,6 @@
     $imageSrc = $_FILES['avatar']['name'];
     $path = "images/client".basename($imageSrc);
 
-
-
     if(isset($_POST["submit"])){
         if(isset($full_name, 
                 $date_of_birth,
